@@ -3,11 +3,32 @@ body {
     font-weight: 400;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 /* Navigation Bar Styles */
+
+.container-fluid {
+    padding: 3% 15%;
+}
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -33,12 +54,6 @@ body {
 #title {
     background: #ff4c68;
     color: white;
-}
-
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
 }
 
 .download-button {
@@ -70,14 +85,33 @@ h1 {
     padding: 3%;
 }
 
-#features h3 {
-    font-weight: 900;
-    font-size: 1.5rem;
+/**** Testimonial Styles *****/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background: #ef8172;
+    color: white;
 }
 
-#features p {
-    color: #8f8f8f;
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
+
+#press {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+
+
 
 
 
