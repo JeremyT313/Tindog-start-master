@@ -1,28 +1,34 @@
+/****** Html element Styles *******/
+
 body {
-    font-family: "montserrat";
+    font-family: "Montserrat";
 }
 
-h1 {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
 h2 {
-    font-family: "montserrat-Bold";
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3 {
-    font-family: "Montserrat-Bold";
     font-size: 1.5rem;
     font-weight: 900;
 }
 
 p {
     color: #8f8f8f;
+}
+
+/* Heading Styles */
+
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 /* Navigation Bar Styles */
@@ -124,6 +130,11 @@ p {
 #pricing {
     padding: 100px;
     text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
