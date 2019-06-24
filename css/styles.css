@@ -1,20 +1,11 @@
-/****** Html element Styles *******/
+/****** Global Styles *****/
 
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.5rem;
+h1, h2, h3, h4, h5 ,h6 {
     font-weight: 900;
 }
 
@@ -22,20 +13,36 @@ p {
     color: #8f8f8f;
 }
 
-/* Heading Styles */
+/****** Headings Section ******/
 
 .big-heading {
-    font-family: "Montserrat";
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-/* Navigation Bar Styles */
-
-.container-fluid {
-    padding: 3% 15% 7%;
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+/****** Containers ******/
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/***** Section Styles ******/
+
+.colored-section {
+    background: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar Styles */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -53,14 +60,13 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "montserrat-light";
 }
 
 /* Title Styles */
 
-#title {
-    background: #ff4c68;
-    color: white;
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .download-button {
@@ -77,9 +83,11 @@ p {
 /* Feature styles */
 
 #features {
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 #features i {
@@ -93,15 +101,17 @@ p {
 
 .feature-box {
     padding: 3%;
-    text-align: center;
 }
 
 /**** Testimonial Styles *****/
 
 #testimonials {
-    text-align: center;
     background: #ef8172;
-    color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image{
@@ -112,7 +122,6 @@ p {
 
 #press {
     background: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -121,15 +130,10 @@ p {
     margin: 20px 20px 50px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /***** Pricing Section ******/
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .price-text {
@@ -141,33 +145,11 @@ p {
     padding: 3% 2%;
 }
 
-/****** CTA Styles *******/
-
-#cta {
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 7% 15%;
-}
-
-#cta h3 {
-    font-family: "Montserrat-Black";
-    color: white;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 /***** Footer Styles ******/
-
-#footer {
-    text-align: center;
-    padding: 7% 15%;
-    background-color: white;
-}
 
 #footer i {
     margin: 20px 10px;
 }
-
 
 
 
